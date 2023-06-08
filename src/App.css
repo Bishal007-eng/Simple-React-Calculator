@@ -1,18 +1,23 @@
 body {
-  background-color: black;
+  background-color: rgb(31, 31, 31);
   color: grey ;
 }
 
 .App{
+  margin-top: 7em;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .calc-wrapper{
-  background-color: white;
+  background-color: black;
   width: 400px;
   border-radius: 20px;
   text-align: center;
   margin-top: 10px;
+}
+
+.row{
+  display: flex;
 }

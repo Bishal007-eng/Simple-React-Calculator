@@ -1,7 +1,9 @@
 import "./button.css";
 
-const Button = () =>{
-  return <div>1</div>
+const Button = ({symbol, color}) =>{
+  return <div className="button-wrapper" style={{backgroundColor: color}}>
+      {symbol}
+    </div>
 };
 
-export default Button
+export default Button;
